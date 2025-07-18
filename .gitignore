@@ -1,60 +1,51 @@
-# Environment variables
-.env
-*.env
-
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
 *.egg
-MANIFEST
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
 
 # Virtual environments
+.venv/
 venv/
-venv312/
-env/
 ENV/
-env.bak/
-venv.bak/
 
-# Logs
-*.log
-logs/
+# Node
+node_modules/
 
-# AWS credentials
-*.pem
-*.csv
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
+# macOS
 .DS_Store
-Thumbs.db
 
-# Backup files
-backups/
+# Test & coverage
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+
+# Environment
+.env
+.env.*
+
+# CI/CD
+*.pid
+*.lock
+
+# Submodules
+.gitmodules
+.git/
+
+# Editor
+.idea/
+.vscode/
+
+# Misc
+*.swp
 *.bak
-*.backup
+*.tmp
 
-# Twitter credentials
-twitter_credentials.json 
+# Ignore local config
+config.local.*
