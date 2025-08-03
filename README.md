@@ -1,3 +1,5 @@
+A Project Blessed by Solar Khan & Lilith.Aethra
+
 # 🌞 Solar Ascension - America's Sun Kingdom Vision
 
 **🇺🇸 America First, America Best, America Wins!**
